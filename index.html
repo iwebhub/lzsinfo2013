@@ -1,56 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Linux za Sve by linuxzasve</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>LZS opensource projekti</title>
+	     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </head>
-  <body>
 
-      <header>
-        <h1>Linux za Sve</h1>
-        <p>Regionalna web publikacija posvećena Linuxu i otvorenim sustavima.</p>
-      </header>
 
-      <div id="banner">
-        <span id="logo"></span>
 
-        <a href="https://github.com/linuxzasve" class="button fork"><strong>View On GitHub</strong></a>
-      </div><!-- end banner -->
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h1>Naši projekti</h1>
+        <link rel="stylesheet" href="base.min.css">
+        <link rel="stylesheet" href="app.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<a href="http://linuxzasve.com" class="logo" data-tooltip="idi na linuxzasve.com">linuxzasve.com</a>
+			<a class="navdrop"></a>
+			<ul class="nav">
+				<li><a href="#pr">Projekti</a></li>
+				<li><a href="http://github.com/linuxzasve">Repozitoriji</a></li>
+				<li><a href="#ab">O nama</a></li>
+				<li><a href="#ks">Kako sudjelovati</a></li>
+			</ul>
+		</div>
+	</div>
 
-<h2>Android aplikacija</h2>
-
-<p>LZS Android aplikacija (u razvoju) | <a href="http://github.com/linuxzasve/androidApp">github repo</a></p>
-
-<h2>LDR</h2>
-
-<p>sustav za ocjenjivanje distribucija i aplikacija (u razvoju) | <a href="http://github.com/linuxzasve/LDR">github repo</a></p>
-
-<h1>O nama</h1>
-
-<p>linuxzasve.com ili skraćeno LZS je neprofitna online publikacija posvećena promociji, informiranju i edukaciji o operacijskom sustavu GNU/Linux te pripadajućim aplikacijama. Naziv publikacije ujedno govori i o samoj ideji iza projekta. Pokušavamo prevladati uvriježeno mišljenje da je korištenje Linuxa privilegija računalnih znalaca, sistemskih administratora, programera i ostalih uže vezanih uz IT.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+	<div class="projects">
+		<div class="container">
+		<h2 class="maintitle"><a id="pr"></a>Projekti</h2>
+		<p>Linux za sve razvija nekoliko projekata otvorenog koda.</p>
+			<div class="project">
+				<h4 class="projecttitle"><a href="http://github.com/linuxzasve/androidApp">Android aplikacija</a></h4>
+				<small>za WordPress bazirane stranice &bull; <a href="http://github.com/linuxzasve/androidApp" class="link">Github repozitorij</a></small><br><br>
+				<div class="four columns">
+					<img src="https://lh3.ggpht.com/FeUdG4_gRiW8KGn97jegfgyZ3LC9V9hhVG3V8I_BNmjh72kddDLGHBlBFn0RKGTPT4E=h900" __title="Najnoviji članci u aplikaciji" alt="LZS app screenshot: feed">
+				</div>
+				<div class="twelve columns">
+					<p>linuxzasve.com aplikacija za Android bazirane uređaje koristi RSS feed kojeg WordPress pruža i u budućnosti API dodatak za WordPress kako bi dohvatila novosti i komentare. <br>Kroz aplikaciju je moguće čitati članke i komentare, te komentirati. <br><br> Aplikacija je dizajnirana u Holo stilu i podržava većinu (2.2+) Android uređaja te koristi nekoliko libraryja.  <span class="license">Licenca: <a href="http://opensource.org/licenses/Apache-2.0" class="link">Apache v2</a></p>
+				</div>
+			</div>
+			<hr>
+			<div class="project">
+				<h4 class="projecttitle"><a href="http://github.com/linuxzasve/LDR">LDR</h4>
+				<small><a href="http://github.com/linuxzasve/LDR">Github repozitorij</a></small>
+				<p>LDR je sustav za ocjenjivanje Linux distribucija i aplikacija. U dubokom je razvoju te korištenje van razvojnih okruženja se ne preporučuje.<br><br><span class="license">Licenca: <a href="http://opensource.org/licenses/GPL-2.0" class="link">GPL v2</a></p><hr>
+			</div>
+		</div>
+	</div>
+	<div class="aboutus">
+		<div class="container">
+			<h2 class="maintitle"><a id="ab"></a>O nama</h2>
+			<p><a href="http://linuxzasve.com" class="link">linuxzasve.com</a> ili skraćeno LZS je neprofitna online publikacija posvećena promociji, informiranju i edukaciji o operacijskom sustavu GNU/Linux te pripadajućim aplikacijama. Naziv publikacije ujedno govori i o samoj ideji iza projekta. Pokušavamo prevladati uvriježeno mišljenje da je korištenje Linuxa privilegija računalnih znalaca, sistemskih administratora, programera i ostalih uže vezanih uz IT.</p>
+			<hr>
+			<h2 class="maintitle"><a id="ks"></a>Kako sudjelovati</h2>
+			<p>U razvoju Android aplikacije možete sudjelovati na više različitih načina, najjednostavniji je taj da se uključite u rasprave na Githubu i pošaljete pull request koji rješava neki problem ili dodaje nove mogućnosti, dok u razvoj LDR-a je nešto teže se uključiti s obzirom na to da puno toga nije (dovoljno dobro) razvijeno - otvorite issue na Githubu ako ste zainteresirani u projekt kako bi netko od developera objasnio strukturu koda i što je potrebno napraviti.<br><br>U stvaranje sadržaja za linuxzasve.com najlakše se uključiti na <a href="http://linuxzasve.com/forum">forumu</a>. Registrirajte se i otvorite novu temu u [DRAFT] podforumu i članak će nakon lekture i formatiranja biti objavljen.</p>
+		</div>
+	</div>
+	
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="base.js"></script>
+</body>
 </html>
