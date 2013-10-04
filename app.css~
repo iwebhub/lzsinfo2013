@@ -13,14 +13,14 @@ color: #369699;
   color:#fff;
   margin:5px;
   padding-top: 5px;
-  padding-left: 5px;
+  padding-left: 15px;
   display:block;
 }
 .info-text{
   background-color:white;
   margin:7px;
   display:block;
-  padding-left:0px;
+  padding-left:15px;
   color: #000;
   border-bottom: 5px solid white;
 }
