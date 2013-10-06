@@ -1,6 +1,4 @@
-
-
-.license{
+﻿.license{
 color: rgb(128, 128, 128);
 }
 a:link, a, a:visited{
@@ -32,4 +30,7 @@ body{
 .header, li, ul, ul li a, .logo{
  background-color: #fff; 
  color: #000 !important;
+}
+.footer-bars{
+  background-image:url('footer.png');
 }
