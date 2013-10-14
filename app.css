@@ -34,3 +34,6 @@ body{
 .footer-bars{
   background-image:url('footer.png');
 }
+html, body{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
