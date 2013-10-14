@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto|Molengo&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext);
 ﻿.license{
 color: rgb(128, 128, 128);
 }
@@ -34,8 +34,8 @@ body{
 }
 .footer-bars{
   background-image:url('footer.png');
-  background-repeat:horizontal-repeat;
+  background-repeat:repeat-x;
 }
 html, body{
-  font-family: 'Molengo', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
