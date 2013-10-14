@@ -34,7 +34,7 @@ body{
 }
 .footer-bars{
   background-image:url('footer.png');
-  background-repeat:no-repeat;
+  background-repeat:horisontal-repeat;
 }
 html, body{
   font-family: 'Molengo', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
